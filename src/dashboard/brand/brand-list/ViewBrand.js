@@ -12,12 +12,12 @@ const ViewBrand = () => {
         const[refresh,setRefresh]=useState(1)
         useEffect(() => {
             axios.get("http://localhost:8001/api/get-brands")
-                .then(response => (
+                .then(response => {
                     // console.log(response.data.data.sub_category),
-                    setList(response.data.data),
-                    setRefresh(r=>r+1)
+                    setList(response.data.data);
+                    setRefresh(r => r + 1)
     
-                ))
+                })
         }, [refresh])
     
         //Delete Category

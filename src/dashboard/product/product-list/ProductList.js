@@ -12,13 +12,13 @@ const ProductList = () => {
     const [filepath, setFielpath] = useState();
         useEffect(() => {
             axios.get("http://localhost:8001/api/get-products")
-                .then(response => (
-                    // console.log(response.data.data),
-                    setFielpath(response.data.filepath),
-                    setList(response.data.data),
-                    setRefresh(r=>r+1)
+                .then(response => {
+                    // console.log(response.data.data)
+                    setFielpath(response.data.filepath);
+                    setList(response.data.data);
+                    setRefresh(r => r + 1)
     
-                ))
+                })
         }, [refresh])
     
         //Delete Category
@@ -67,7 +67,7 @@ const ProductList = () => {
                             list.map((item,no) => {
                                 return <tr>
                                     <td>{no + 1}</td>
-                                    <td><img src={`${filepath}${item.images[0]}`} style={{width:'150px',borderRadius:'25%'}} /></td>
+                                    <td><img src={`${filepath}${item.images[0]}`} style={{width:'150px',borderRadius:'25%'} } alt='product image' /></td>
                                     <td>{item.name}</td>
                                     <td>{item.category.category_name} </td>
                                     <td>{item.sub_category?.category_name || "no subcategory"} </td>

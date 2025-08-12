@@ -15,7 +15,7 @@ const Top = () => {
                     <Row className={classes.top_img}>
                         
                             <Col md={8} sm={12} className={`${classes.top_col1}`} >
-                            <a>
+                            <a href="#">
                             <img src={top1} alt="img" className="w-100 h-100" />
                                 
                                     <div className={classes.content}>
