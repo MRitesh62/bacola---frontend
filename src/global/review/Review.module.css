@@ -1,0 +1,32 @@
+.review{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    border-bottom: 1px solid #858585;
+    padding: 20px;
+}
+.review svg{
+    font-size: 62px;
+    color: #bababa;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.form textarea{
+    height: 150px;
+    margin: 31px 0;
+    padding: 20px;
+}
+.form select{
+    width: 100px;
+}
+.form button{
+    width: 150px;
+    height: 3.25rem;
+    border: none;
+    background-color: #233a95;
+    color: white;
+    border-radius: 7px;
+}

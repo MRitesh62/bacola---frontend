@@ -1,0 +1,28 @@
+
+.div{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+    margin: 50px 0;
+}
+.div input{
+    padding: 20px;
+    margin: 10px 0;
+    height: 2.25rem;
+    border: none;
+    border-radius: 7px;
+    width: 280px;
+    background-color: rgb(245, 247, 248);
+}
+.div button{
+    border: none;
+    padding: 0 10px;
+    height: 2rem;
+    color: white;
+    border-radius: 7px;
+    background-color: #233a95;
+}
+.btn{
+    color: rgb(27, 26, 26) !important;
+    background-color: rgb(237, 236, 235) !important;
+}

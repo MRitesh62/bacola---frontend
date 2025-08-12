@@ -1,0 +1,73 @@
+.container{
+    width: 1200px;
+}
+.img1{
+    background-image: url('./img1.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+    width: 32%;
+    border-radius: 0.55rem;
+}.img2{
+    background-image: url('./img2.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+    width: 32%;
+    border-radius: 0.55rem;
+}.img3{
+    background-image: url('./img3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+    border-radius: 0.55rem;
+    width: 32%;
+}
+.content{
+    padding: 2rem 2.5rem;
+}
+.content h5{
+    color: #00b853;
+    font-size: .875rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.content h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: -.8px;
+    color: #3e445a;
+}
+.content p{
+    font-size: .75rem;
+    color: #9b9bb4;
+}
+.content button{
+    font-size: .75rem;
+    height: 2.125rem;
+    margin-top: 1.25rem;
+    border-radius: 1.875rem;
+    background-color: #c2c2d3;
+    color: white;
+    padding: 0 1.25rem;
+    border: none;
+}
+
+@media (min-width:982px) and (max-width:1199px){
+    .img1,.img2,.img3{
+        width: 48%;
+    }
+}
+@media (min-width:576px) and (max-width:981px){
+    .img1,.img2,.img3{
+        width: 100%;
+    }
+}
+@media (max-width:575px) {
+    .container{
+        width: 300px;
+    }
+    .img1,.img2,.img3{
+        width: 100%;
+    }
+}

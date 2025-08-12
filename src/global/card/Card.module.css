@@ -1,0 +1,90 @@
+.box{
+    position: relative;
+    border:1px solid  #d9d9df;
+    padding: 20px;
+}
+.box span{
+    background-color: #2bbef9;
+    color: white;
+    font-weight: 600;
+    padding: .1rem .55rem;
+    position: absolute;
+    z-index: 1;
+    border-radius: 8px;
+    font-size: 14px;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+}
+.box img{
+    height: 199px;
+    width: 100%;
+    object-fit: contain;
+}
+.box h3{
+    font-size: .875rem;
+    font-weight: 600;
+    line-height: 1.4;
+}
+.box p{
+    font-size: .8875rem;
+    margin-bottom: .625rem;
+    color: #00b853;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.box del{
+    color: #c2c2d3;
+    font-size: 16px;
+    font-weight: 600;
+}
+.box h4{
+    color: #d51243;
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+.star svg{
+    color: #ffcd00;
+    border: none;
+    font-size: .6875rem;
+    margin-right: 3px;
+    margin-bottom: 10px;
+}
+
+.box button{
+    color: #2bbef9;
+    font-size: .75rem;
+    height: 2.125rem;
+    padding: 0 1.25rem;
+    width: 100%;
+    text-transform: capitalize;
+    border-radius: 1.875rem;
+    border: 1px solid #2bbef9;
+    margin: 10px 0;
+    background-color: transparent;
+}
+.box button:hover{
+    background-color: #2bbef9;
+    color: white;
+}
+.heart{
+    position: absolute;
+    z-index: 1;
+    color: #3e445a;
+    font-size: 50px;
+    font-weight: 600;
+    padding: 10px;
+    right: 0%;
+    border-radius: 50%;
+    opacity: 0;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: all 0.5s ease;
+}
+.box:hover .heart{
+    right: 7%;
+    opacity: 1;
+}
+.heart:hover{
+background-color: #233a95;
+color: white;
+}

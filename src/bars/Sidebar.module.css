@@ -1,0 +1,43 @@
+.main{
+    display:flex;
+    height: 100vh;
+    color: white;
+}
+
+.main ul li a:hover{
+    background-color: transparent !important;
+    color: aqua !important;
+}
+.main ul{
+    background-color: black;
+}
+
+.btn{
+    border: none;
+    background-color: transparent;
+}
+.btn svg{
+    position: absolute;
+    top: 5px;
+    left: 25px;
+    color: white;
+    font-size: 30px;
+    margin-top: 10px;
+}
+.ps-menu-button:hover {
+    background-color: black;
+}
+.profile{
+    margin: 15px;
+    text-align: center;
+}
+.profile svg{
+    font-size: 100px; 
+}
+.menu ul a{
+    text-decoration: none !important;
+    color: white ;
+}
+.main a.active{
+    color: aqua ;
+}

@@ -1,0 +1,146 @@
+.container{
+    width: 1200px;
+    margin: 50px auto;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+.head h4{
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Dosis", serif;
+}
+.head p{
+    font-size: 0.85rem;
+    color: #9b9bb4;
+}
+.head button{
+    color: #9b9bb4;
+    border:1px solid #9b9bb4;
+    padding: 0 1.25rem;
+    border-radius: 1.87rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    height: 2.125rem;
+    background-color: transparent;
+}
+.box{
+    border:1px solid  #d9d9df;
+    height: 400px;
+    padding: 20px;
+    /* margin: 0 10px; */
+    position: relative;
+}
+.box span{
+    background-color: #2bbef9;
+    color: white;
+    font-weight: 600;
+    padding: .1rem .55rem;
+    position: absolute;
+    z-index: 1;
+    border-radius: 8px;
+    font-size: 14px;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+}
+.heart{
+    position: absolute;
+    z-index: 1;
+    color: #3e445a;
+    font-size: 50px;
+    font-weight: 600;
+    padding: 10px;
+    right: 0%;
+    border-radius: 50%;
+    opacity: 0;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: all 0.5s ease;
+}
+.box:hover .heart{
+    right: 7%;
+    opacity: 1;
+}
+.heart:hover{
+background-color: #233a95;
+color: white;
+}
+.box img{
+    height: 199px;
+    width: 100%;
+    object-fit: contain;
+}
+.box h3{
+    font-size: .875rem;
+    font-weight: 600;
+    line-height: 1.4;
+}
+.box p{
+    font-size: .8875rem;
+    margin-bottom: .625rem;
+    color: #00b853;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.box del{
+    color: #c2c2d3;
+    font-size: 16px;
+    font-weight: 600;
+}
+.box h4{
+    color: #d51243;
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+.star svg{
+    color: #ffcd00;
+    border: none;
+    font-size: .6875rem;
+    margin-right: 3px;
+    margin-bottom: 10px;
+}
+
+.box button{
+    background-color: #ffcd00;
+    font-size: .75rem;
+    height: 2.125rem;
+    padding: 0 1.25rem;
+    width: 100%;
+    text-transform: capitalize;
+    border-radius: 1.875rem;
+    border: none;
+    margin: 10px 0;
+}
+
+.container :global(.slick-prev)::before,
+.container :global(.slick-next)::before{
+   display: none !important;
+}
+.container :global(.slick-prev),.container :global(.slick-next){
+    z-index: 1 ;
+    background-color: white !important;
+    border: 1px solid #aaaaac !important;
+    padding: 6px !important;
+    font-size: 18px !important;
+}
+
+@media (min-width:576px) and (max-width:980px) {
+    .container{
+        width: 750px;
+    }
+}
+
+@media (max-width:575px) {
+    .container{
+        width: 300px;
+    }
+    .head h4{
+        margin: 0;
+    }
+    .head button{
+        margin-top: 15px;
+    }
+}

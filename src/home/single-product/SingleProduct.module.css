@@ -1,0 +1,173 @@
+.container,.container2{
+    width: 1200px;
+    padding: 40px;
+    background-color: #fff;
+    margin-bottom: 70px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.header h1{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: .9375rem;
+    color: #202435;
+    text-transform: capitalize;
+}
+.star p{
+    margin-right: 10px;
+    color: #9b9bb4;
+    font-size: .75rem;
+}
+.star span{
+    color: #3e445a;
+    margin-right: 10px;
+    font-size: .75rem;
+    text-transform: capitalize;
+}
+.discount{
+    background-color: #2bbef9;
+    padding: .375rem .75rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    border-radius: 0.25rem;
+    color: white;
+    position: relative;
+    z-index: 1;
+
+}
+.product_detail p{
+    color: #d51243;
+    font-size: 26px;
+    font-weight: 600;
+}
+.product_detail del{
+    color: #c2c2d3;
+    font-size: 20px;
+    font-weight: 500;
+    margin-right: 8px;
+}
+.product_detail .availability{
+    color: #00b853;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 0.75rem;
+    padding: 4px 10px;
+    background-color:#e5f8ed;
+    border-radius: 1.875rem;
+}
+.short_desc{
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 24px;
+    font-size: 0.85rem;
+    color: #53586c;
+    margin-top: 20px;
+}
+.counter button{
+    border: none;
+    width: 2.75rem;
+    height: 2.75rem;
+    font-size: 1.8rem;
+    color: #202435;
+    border-radius: 50%;
+}
+.counter button:hover{
+    background-color: #ffc107;
+}
+.counter h3{
+    display: inline;
+    font-size: 0.93rem;
+}
+.counter{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.cart{
+    width: 100%;
+    background-color: #233a95;
+    color: white;
+    height: 2.75rem;
+    font-size: 0.81rem;
+    border-radius: 1.8rem;
+    border: none;
+    text-transform: capitalize;
+}
+.wishlist{
+    height: 2.0625rem;
+    padding-left: .75rem;
+    padding-right: .75rem;
+    border: 1px solid #d9d9e9;
+    border-radius: 2.0625rem;
+    font-size: .85rem;
+    font-weight: 600;
+    color: #71778e;
+    text-transform: uppercase;
+    background-color: transparent;
+}
+.wishlist svg{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-right: 5px;
+}
+.line{
+    margin: 15px 0;
+    padding: 20px 0 0 0;
+    border-top: 2px solid #e9eaef;
+}
+.check svg{
+    color: #00b853;
+    font-size: 0.68rem;
+    margin-right: 0.62rem;
+}
+li{
+    text-transform: capitalize;
+}
+
+.social{
+    display: flex;
+    padding: 0;
+}
+.social li{
+    font-size: 1rem;
+    width: 2rem;
+    text-align: center;
+    height: 2rem;
+    border-radius: 1.8rem;
+    color: white;
+    padding: 2px;
+    margin-right: 5px;
+}
+.ship {
+    background-color: #f7f8fd;
+}
+.ship svg{
+    font-size: 35px;
+}
+
+.header2{
+    border-bottom: 1px solid #edeef5;
+}
+.header2 button{
+    border: none;
+    background-color: transparent;
+    font-weight: 600;
+    margin-right: 30px;
+    padding-bottom: 20px;
+    color: #71778e;
+
+    text-transform: uppercase;
+
+}
+.content{
+    padding-top: 15px;
+    line-height: 30px;
+}
+@media (max-width:575px) {
+    .container,.container2{
+        width: 300px;
+    }
+    .counter{
+       margin-bottom: 10px;
+    }
+}

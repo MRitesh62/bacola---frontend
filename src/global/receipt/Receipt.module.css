@@ -1,0 +1,30 @@
+.container{
+    width: 1200px;
+}
+.thanking {
+    padding:3% ;
+    text-align: center;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 1.4;
+    color: #00b853;
+    border: 2px dotted #00b853;
+    margin-bottom: 30px;
+}
+.overview{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 20px;
+    margin: 15px 0;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 5%);
+}
+.overview li{
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+}
+.container h2{
+    font-size: 16px;
+    font-weight: 800;
+}

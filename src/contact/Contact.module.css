@@ -1,0 +1,106 @@
+.container{
+    width: 1200px;
+}
+.contact{
+    margin: 60px 0;
+    text-align: center;
+}
+.contact h1{
+    font-size: 40px;
+    color: #202435;
+}
+.contact p{
+    font-size: 14px;
+    color: #202435;
+    margin-bottom: 20px;
+}
+.box > div{
+    padding: 2rem;
+    background-color: #f3f3f6;
+    text-align: center;
+    border-radius: 7px;
+}
+.box svg{
+    font-size: 2.25rem;
+    margin-bottom: 1.25rem;
+    color: #233a95;
+}
+.box h4{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+.form{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 5.625rem 0;
+    margin-bottom: 50px;
+}
+.form > div{
+    width: 47rem;
+    margin: 0 auto;
+}
+.head{
+    text-align: center;
+    padding-bottom: 2.5rem;
+    margin-bottom: 3.5rem;
+    border-bottom: 1px solid #edeef5
+}
+.head h1{
+    font-size: 40px;
+    color: #202435;
+}
+.head p{
+    font-size: 14px;
+    color: #202435;
+}
+
+.form input{
+    width: 100%;
+    height: 2.875rem;
+    font-size: .9375rem;
+    background-color: #f3f4f7;
+    color: #202435;
+    border-radius: 7px;
+    border: none;
+    margin: 10px 0;
+    outline: none;
+    padding:5px 15px
+}
+.form textarea{
+    width: 100%;font-size: .9375rem;
+    background-color: #f3f4f7;
+    color: #202435;
+    border-radius: 7px;
+    margin: 10px 0;
+    outline: none;
+    border: none;
+    padding:5px 15px
+}
+.form button{
+    width: 165px !important;
+    text-align: center;
+    font-size: .8125rem;
+    padding: 0 2.25rem;
+    height: 2.875rem;
+    border: none;
+    background-color: #233a95;
+    color: white;
+    border-radius: 7px;
+    text-transform: capitalize;
+}
+
+@media (max-width:990px) {
+    .container{
+        width: 100%;
+    }
+    .box{
+        margin: 10px 0;
+    }
+    .form > div{
+        width: 100%;
+    }
+    .form{
+        box-shadow: none;
+    }
+}

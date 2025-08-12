@@ -1,0 +1,118 @@
+.container{
+    width: 1200px;
+    margin: 50px auto;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+.head h4{
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Dosis", serif;
+}
+.head p{
+    font-size: 0.85rem;
+    color: #9b9bb4;
+}
+.head button{
+    color: #9b9bb4;
+    border:1px solid #9b9bb4;
+    padding: 0 1.25rem;
+    border-radius: 1.87rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    height: 2.125rem;
+    background-color: transparent;
+}
+
+.hover button{
+    background-color: #ffcd00;
+    color: black;
+    border-radius: 1.875rem;
+    border: none;
+    margin: 10px 0;
+    display: none;
+}
+.hover:hover button{
+display: block !important;background-color: #ffcd00;
+color: black;
+}
+.content2{
+    position: absolute;
+    top: 0%;
+    left: 0;
+    max-width: 70%;
+    padding: 1.875rem 2.5rem;
+}
+.header2 h4{
+    color: #202435 ;
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+.header2 h3{
+    color: #3e445a;
+    font-size: 1.85rem;
+    font-weight: 600;
+}
+.header2 p{
+    color: #9b9bb4;
+    font-size: 0.75rem;
+}
+.content2 button{
+    padding: 8px 15px;
+    background-color: #233a95;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    font-size: .75rem;
+    height: 2.125rem;
+    font-weight: 500;
+}
+.sub_category{
+    padding: 1.87rem 0;
+    display:flex;
+    /* flex-wrap: wrap; */
+    flex-flow: row wrap;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.sub_category li{
+    width: 50%;
+    padding: 0 1.87rem;
+    margin-bottom:.625rem;
+    font-size: 0.81rem;
+    color: #3e445a;
+    text-transform: capitalize;
+}
+.shop{
+    border: none;
+    background-color: transparent;
+    color: #233a95;
+    font-size: 0.9525rem;
+    margin-left: 1.875rem;
+}
+
+
+@media (min-width:576px) and (max-width:980px) {
+    .container{
+        width: 750px;
+    }
+}
+
+@media (max-width:575px) {
+    .container{
+        width: 300px;
+    }
+    .head h4{
+        margin: 0;
+    }
+    .head button{
+        margin-top: 15px;
+    }
+    .content2{
+        padding: 10px;
+    }
+}

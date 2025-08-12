@@ -1,0 +1,33 @@
+.container{
+    width: 500px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-transform: capitalize;
+    border: 1px solid;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.main tr{
+    border-bottom: 1px solid #6c757d;
+}
+.main td,th{
+    padding: 15px;
+}
+.main input{
+    margin: 10px 20px;
+}
+.main button{
+    text-transform: capitalize;
+    background-color: red;
+    color: white;
+    height: 3.125rem;
+    width: 100%;
+    border: none;
+    border-radius: 7px;
+    font-weight: 700;
+    font-size: 1rem;
+    margin: 20px 0;
+}

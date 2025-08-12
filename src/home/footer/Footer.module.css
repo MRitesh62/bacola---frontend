@@ -1,0 +1,125 @@
+.container{
+    width: 1200px;
+}
+
+.subscribe{
+    padding: 4.375rem 0;
+    color: white;
+}
+.subscribe h3{
+    font-size: 1.625rem;
+    font-weight: 600;
+    margin-bottom: .9375rem;
+}
+.subscribe p{
+    font-size: .8125rem;
+    font-weight: 400;
+    line-height: 24px;
+    max-width: 18.75rem;
+    opacity: .5;
+}
+.input input{
+    height: 3.875rem;
+    width: 100%;
+    padding-left: 3.125rem;
+}
+.input button{
+    position: absolute;
+    font-size: .8125rem;
+    font-weight: 500;
+    height: auto;
+    padding: 0.7rem 1.25rem;
+    top: 18%;
+    right: 2%;
+    border-radius: 0.4rem;
+    border: none;
+    background-color: #233a95;
+    color: #fff;
+}
+.input svg{
+    position: absolute;
+    color: #7d7d8f;
+    font-size: 1.5rem !important;
+    top: 30%;
+    left: 3%;
+}
+
+.coupon{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 100%;
+}
+
+.lb{
+    border-left: 1px solid #dee2e6;
+}
+.nb p,.lb p{
+    font-size: 0.8125rem;
+    font-weight: 500;
+}
+.nb svg, .lb svg{
+    font-size: 1.375rem;
+    margin-right: 0.8rem;
+}
+.contact svg,.icon svg{
+    font-size: 1.125rem !important;
+    width: 2.7rem;
+    height: 3rem;
+    margin-right: .9375rem;
+    border: 1px solid #e4e5ee;
+    border-radius: 50%;
+    color: #202435;
+    padding: 11px;
+
+}
+.content h6{
+    font-size: .875rem;
+    font-weight: 600;
+    color: #202435;
+    margin: 0;
+}
+.number h4{
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 3px;
+    color: #202435;
+}
+.number p ,.content p{
+    font-size: .6875rem;
+    opacity: .5;
+    color: #202435;
+}
+.img img{
+    margin-right: 0.6rem;
+}
+
+.icon svg{
+    color: #233a95;
+    width: 2rem;
+    height: 2.5rem;
+    padding: 9px;
+}
+.copyright p{
+    font-size: .75rem;
+    margin: 0;
+    letter-spacing: -.1px;
+    line-height: 1.5;
+    color: #9b9bb4;
+}
+.menu span{
+    color: #9b9bb4;
+    font-size: .75rem;
+    padding: 0 5px;
+}
+@media (max-width:575px) {
+    .container{
+        width: 300px;
+    }
+    .coupon img{
+        width: 100%;
+    }
+    .lb{
+        border: none;
+    }
+}

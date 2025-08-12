@@ -1,0 +1,63 @@
+
+.container{
+    width: 1200px;
+}
+.banner_content{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    z-index: 1;
+}
+.banner_content h4{
+    font-size: 1.5rem;
+    font-weight: 200;
+    letter-spacing: -.8px;
+    margin-bottom: 5px;
+    color: #202435;
+}
+.banner_content h3{
+    font-size: 1.875rem;
+    font-weight: 600;
+    letter-spacing: -.8px;
+}
+.banner_content h3 span{
+    color: #00b853;
+}
+.banner_content p{
+    font-size: 0.75rem;
+    color: #9b9bb4;
+}
+
+.option{
+    background-color:#f7f8fd ;
+    padding: 1rem 1.875rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 1.25rem 0;
+    border-radius: 7px;
+}
+.left svg{
+    font-size: .875rem;
+    margin-right: 10px;
+    color: #c2c2d3;
+}
+.active{
+    color: black !important;
+}
+.right select{
+    border: none;
+    background-color: transparent;
+    padding-right: 0px;
+    margin-right: 20px;
+    text-align: end;
+    outline: none;
+}
+
+@media (max-width:575px) {
+    .container{
+        width: 100%;
+    }
+    .left{
+        display: none;
+    }
+}

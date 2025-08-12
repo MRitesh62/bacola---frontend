@@ -1,0 +1,13 @@
+.container{
+    width: 1200px;
+}
+.img{
+    width: 100px;
+}
+.clear{
+    padding: 10px;
+    border-radius: 7px;
+    background-color: rgb(13, 13, 81);
+    color: white;
+    border: none;
+}
